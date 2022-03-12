@@ -6,7 +6,7 @@ An open-source, community-driven finite-volume sea ice modeling package in the [
   <img width=600 src=https://user-images.githubusercontent.com/15271942/158003809-073b3f31-d58a-4883-af3e-755755215a60.gif>
 </p>
 
-_Toy viscoelastic sea ice model. See [`examples/elastic_ice.jl`](https://github.com/glwagner/IcyAntics.jl/blob/main/examples/elastic_ice.jl) or code below._
+_Toy viscoelastic sea ice model. See [`examples/viscoelastic_ice.jl`](https://github.com/glwagner/IcyAntics.jl/blob/main/examples/elastic_ice.jl) or code below._
 
 ## The proposal
 
