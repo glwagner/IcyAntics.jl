@@ -1,7 +1,7 @@
 # IcyAntics.jl
 
 Under development: a sea ice modeling framework in the [`Oceananigans.jl`](https://github.com/CliMA/Oceananigans.jl) and [`OceanLearning.jl`](https://github.com/CliMA/OceanLearning.jl) ecosystem.
-`IcyAntics.jl` is designed to enable parameter estimation and uncertainty quantification for sea ice models, data-driven sea ice parameterization development, and sea ice modeling from kilometer to planetary scales.
+`IcyAntics.jl` is designed to enable parameter estimation and uncertainty quantification for sea ice models, data-driven sea ice parameterization development, and both stand-alone and coupled ice-ocean models for modeling at kilometer to planetary scales.
 
 Models we might implement:
 
