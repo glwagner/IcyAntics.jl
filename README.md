@@ -37,7 +37,7 @@ We _propose_ the following:
 
 * Offline parameter estimation of free parameters in sea ice viscoplastic rheologies, elasto-brittle rheologies, damage models, and therodynamic models;
 * Coupled ice-ocean parameter estimation for sea ice models and ocean turbulence parameterizations;
-* Extension of particle-based methods to approximate viscoplastic, elasto-brittle, and other sea ice rheology paradigms;
+* Extension of discrete element methods to approximate viscoplastic, elasto-brittle, and other sea ice rheology paradigms;
 * Numerical methods for sea ice modeling including high-order finite volume formulations and semi-Lagrangian finite volume advection schemes.
 
 ## Example code
