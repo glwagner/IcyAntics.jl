@@ -42,7 +42,7 @@ We _propose_ the following:
 
 ## Example code
 
-The following implements a numerical simulation of a "toy" viscoelastic sea ice model with uniform concentration coupled to an "ocean model":
+The following code from [`examples/viscoelastic_ice.jl`](https://github.com/glwagner/IcyAntics.jl/blob/main/examples/viscoelastic_ice.jl) implements a numerical simulation of a "toy" viscoelastic sea ice model with uniform concentration coupled to a barotropic turbulence ocean model:
 
 ```julia
 using Oceananigans
