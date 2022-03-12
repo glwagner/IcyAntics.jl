@@ -1,9 +1,13 @@
 # IcyAntics.jl
 
-Under development: a sea ice modeling framework in the [`Oceananigans.jl`](https://github.com/CliMA/Oceananigans.jl) and [`OceanLearning.jl`](https://github.com/CliMA/OceanLearning.jl) ecosystem.
-`IcyAntics.jl` is designed to enable parameter estimation and uncertainty quantification for sea ice models, data-driven sea ice parameterization development, and both stand-alone and coupled ice-ocean models for simulations at kilometer to planetary scales.
+![elastic_ice](https://user-images.githubusercontent.com/15271942/158003809-073b3f31-d58a-4883-af3e-755755215a60.gif)
 
-Models we might implement:
+_Toy viscoelastic sea ice model. See [`examples/elastic_ice.jl`](https://github.com/glwagner/IcyAntics.jl/blob/main/examples/elastic_ice.jl) or code below._
+
+Under development: a sea ice modeling framework in the [`Oceananigans.jl`](https://github.com/CliMA/Oceananigans.jl) and [`OceanLearning.jl`](https://github.com/CliMA/OceanLearning.jl) ecosystem.
+`IcyAntics.jl` is designed to enable parameter estimation and uncertainty quantification for sea ice models, data-driven sea ice parameterization development, offline ice dynamics simulations, and coupled ice-ocean simulations at kilometer to planetary scales.
+
+Sea ice modeling paradigms we might implement:
 
 * Static viscoplastic continuum models ([Zhang and Hibler 1997](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/96JC03744), [Losch et al. 2010](https://www.sciencedirect.com/science/article/pii/S1463500309002418?casa_token=7X6zEGzN43EAAAAA:A1PtPqOSnE-8u9aHyvc2rfffv48yv7sJIbAwyhD1PHb3U_rNFcepGKOMa12wMXqXsI5QDlh4zg))
 * Dynamic elastic-viscous-plastic continuum models ([Hunke and Dukowicz 1997](https://journals.ametsoc.org/view/journals/phoc/27/9/1520-0485_1997_027_1849_aevpmf_2.0.co_2.xml))
