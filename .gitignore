@@ -20,3 +20,5 @@ docs/site/
 *.swp
 *.jld2
 *.mp4
+*.gif
+*.DS_Store

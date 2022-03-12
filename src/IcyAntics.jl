@@ -1,6 +1,6 @@
 module IcyAntics
 
-export ContinuumIceModel
+export ContinuumIceModel, ViscoElasticRheology
 
 include("ContinuumIceModels.jl")
 
