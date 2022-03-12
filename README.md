@@ -8,11 +8,11 @@ An open-source, community-driven finite-volume sea ice modeling package in the [
 
 _Toy viscoelastic sea ice model. See [`examples/viscoelastic_ice.jl`](https://github.com/glwagner/IcyAntics.jl/blob/main/examples/viscoelastic_ice.jl) or code below._
 
-## The proposal
+# Proposal
 
 We propose to develop `IcyAntics.jl` as a sea ice modeling package for both off-line sea ice simulations with prescribed atmosphere-ocean thermomechanical states, and for coupled ice-ocean and ice-atmosphere-ocean simulations at kilometer to planetary scales.
 
-## The purpose
+## Mission
 
 `IcyAntics.jl` will enable
 
@@ -23,7 +23,7 @@ We propose to develop `IcyAntics.jl` as a sea ice modeling package for both off-
 ## Core capabilities
 
 Core capabilities will rest on existing, tested sea ice modeling paradigms.
-We propose to develop the following core capabilities:
+We propose independent efforts to implement the following core capabilities:
 
 * `ContinuumIceModel` with `ElastoViscoPlastic` rheology and explicit time-stepping for elastic dynamics ([Hunke and Dukowicz 1997](https://journals.ametsoc.org/view/journals/phoc/27/9/1520-0485_1997_027_1849_aevpmf_2.0.co_2.xml))
 * `DiscreteElementIceModel` Lagrangian ice model ([Chen et al. 2021](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021MS002513))
