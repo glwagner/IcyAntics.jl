@@ -50,10 +50,6 @@ rheology = ViscoElasticRheology(modulus=1.0, viscosity=1e4)
 
 # Spin up the ice model
 ice_model = ContinuumIceModel(; grid, ocean=ocean_state, rheology)
-#ice_simulation = Simulation(ice_model, Δt=ice_Δt, stop_time=1hour)
-#run!(ice_simulation)
-#ice_simulation.stop_time = Inf
-
 ice_simulation = Simulation(ice_model, Δt=ice_Δt)
 
 #####
