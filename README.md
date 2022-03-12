@@ -3,7 +3,7 @@
 An open-source, community-driven finite-volume sea ice modeling package in the [Oceananigans](https://github.com/CliMA/Oceananigans.jl) ecosystem.
 
 <p align="center">
-  <img width=600 src=https://user-images.githubusercontent.com/15271942/158003809-073b3f31-d58a-4883-af3e-755755215a60.gif>
+  <img width=800 src=https://user-images.githubusercontent.com/15271942/158024239-926769a1-eebc-4da3-93ad-9b908c740270.gif>
 </p>
 
 _Toy viscoelastic sea ice model. See [`examples/viscoelastic_ice.jl`](https://github.com/glwagner/IcyAntics.jl/blob/main/examples/viscoelastic_ice.jl) or code below._
