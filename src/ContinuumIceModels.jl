@@ -207,7 +207,7 @@ end
     end
 end
 
-function time_step!(model, Δt)
+function time_step!(model, Δt; callbacks=nothing)
     calculate_tendencies!(model)
 
     arch = model.grid.architecture
