@@ -76,7 +76,7 @@ closure = HorizontalScalarBiharmonicDiffusivity(ν = Δh^4 / 4hour)
 
 ocean_model = NonhydrostaticModel(; grid, closure,
                                   timestepper = :RungeKutta3,
-                                  advection = WENO5(),
+                                  advection = WENO(),
                                   buoyancy = nothing,
                                   tracers = nothing)
 
@@ -156,3 +156,36 @@ record(fig, "viscoelastic_ice.gif", 1:N, framerate=12) do i
 end
 
 ```
+
+## Running example code
+
+1. [Download julia](https://julialang.org/downloads/).
+
+With julia 1.8:
+
+2. git clone https://github.com/glwagner/IcyAntics.jl.git
+3. Navigate to `/examples`
+4. Type
+
+```
+julia --project
+```
+
+to open julia in the IcyAntics environment.
+
+5. Type 
+
+```julia
+julia> using Pkg; Pkg.instantiate()
+```
+
+to install all required packages.
+
+6. Type 
+
+```julia
+julia> include("viscoelastic_ice.jl")
+```
+
+to run the example.
+

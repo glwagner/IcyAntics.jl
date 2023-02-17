@@ -29,7 +29,7 @@ closure = HorizontalScalarBiharmonicDiffusivity(ν = Δh^4 / 4hour)
 
 ocean_model = NonhydrostaticModel(; grid, closure,
                                   timestepper = :RungeKutta3,
-                                  advection = WENO5(),
+                                  advection = WENO(),
                                   buoyancy = nothing,
                                   tracers = nothing)
 
